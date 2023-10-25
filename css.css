@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::selection {
+  color: #ececec;
+  background: #a83c3c;
+}
+
+/* template */
+
+.template {
+  width: 100%;
+  display: block;
+  height: auto;
+  padding: 0px 80px;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #000;
+  color: #ececce !important;
+  padding: 8px 70px;
+  align-items: center;
+}
+.logobox {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.tabs {
+  display: flex;
+  gap: 12px;
+}
+.tabs a li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #eceece;
+}
+form input {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #ececec;
+  outline: none;
+  border-radius: 4px;
+  padding: 0px 8px;
+}
+form button {
+  background-color: #ececec;
+  color: #000;
+  border: 2px solid #ececec;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.banner,
+.cards,
+footer {
+  padding: 12px 90px;
+}
+
+.banner-content {
+  background: #eeeeee;
+  padding: 60px;
+  border-radius: 12px;
+}
+
+.banner-content h1 {
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.banner-content p {
+  font-size: 16px;
+  color: #424242;
+  margin-bottom: 16px;
+}
+.banner-content button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: linear-gradient(180deg, #87ceeb, #0000ff);
+  cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.card-boxes{
+    width: 290px;
+}
+.card-boxes h1{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.card-boxes p{
+    text-align: justify;
+}
+.Footer{
+    border-top: 1px solid #afafaf;
+    padding-top: 9px;
+}
+/* git remote add origin https://github.com/udtDev/template.git */
